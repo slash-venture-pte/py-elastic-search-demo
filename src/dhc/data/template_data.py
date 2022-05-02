@@ -1,7 +1,6 @@
 from datetime import datetime
 
 class TemplateData():
-  id = 0
   code = ''
   description = ''
   name = ''
@@ -12,8 +11,7 @@ class TemplateData():
   lng = 0.0
   created_at = datetime.now()
   updated_at = datetime.now()
-  def __init__(self, id, code, description, name, meta_data, price, lat, lng, created_at, updated_at, status):
-    self.id = id
+  def __init__(self, code, description, name, meta_data, price, lat, lng, created_at, updated_at, status):
     self.code = code
     self.description = description
     self.name = name
@@ -27,7 +25,6 @@ class TemplateData():
 
   def to_dict(self):
     return {
-      'id': self.id,
       'code': self.code,
       'description': self.description,
       'name': self.name,

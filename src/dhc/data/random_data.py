@@ -20,10 +20,6 @@ class RandomData():
       if self.seed_words == None:
         self.seed_words = words
 
-    def get_id(self):
-        """Look, random numbers!"""
-        return random.randint()
-
     def get_lag(self):
         return random.uniform(9.50, 11.99)
 
