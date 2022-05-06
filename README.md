@@ -17,3 +17,17 @@ Using `virtualenv`
 
 
 WordNick: https://wordnik.com/
+
+### Demo server:
+
+IP: 
+
+### Elastic Search demo:
+
+https://levelup.gitconnected.com/docker-compose-made-easy-with-elasticsearch-and-kibana-4cb4110a80dd
+
+Run with `docker-compose up`
+
+### Log stash and the CSV demo:
+
+https://medium.com/@matheuswarmeling/using-logstash-to-import-csv-files-into-elasticsearch-with-docker-ccdae1b1d4e6
